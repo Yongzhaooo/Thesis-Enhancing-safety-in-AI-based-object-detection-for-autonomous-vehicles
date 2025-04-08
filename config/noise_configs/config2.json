@@ -1,0 +1,13 @@
+{
+    "Gaussian_MEAN": 0,
+    "Initial_Gaussian_SIGMA": 15,
+    "DELTA_LEVELS_Gaussian": 5,
+    "NUM_LEVELS_Gaussian": 6,
+    "MIN_MOSAIC_SIZE": 5,
+    "MAX_MOSAIC_SIZE": 200,
+    "COLOR_MODE": "average",
+    "Initial_Mosaic_NUM": 30,
+    "DELTA_LEVELS_MOSAIC": 10,
+    "NUM_LEVELS_MOSAIC": 7,
+    "noise_batch": 160
+}

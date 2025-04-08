@@ -1,0 +1,36 @@
+# Description:
+# This configuration file defines the global settings for the project. It includes the following sections:
+# 1. Model-related configurations: Paths to YOLO model files, feature extractor settings, and training parameters.
+# 2. Data paths: Paths for inference data, training data, and output directories.
+# 3. Noise processing configurations: Batch size for noise processing and the sequence of noise configurations to apply.
+# 4. Logging and debugging configurations: Logging levels for the application.
+
+# This file is designed to centralize all configurable parameters for easy management and modification.
+
+
+# Model-related configurations
+model:
+  yolo_config_path: /home/carla/yongzhao/thesis/thesis_yolo/models/yolov5s_carla.yaml
+  yolo_weights_path: /home/carla/yongzhao/thesis/thesis_yolo/best.pt
+  feature_extractor: yolo
+  freeze_weights: false
+  batch_size: 32
+  img_size: 640
+  confidence_percentage: 75a  # Confidence threshold for predictions (in percentage)
+  use_pca: false  # Whether to use PCA for feature reduction
+
+# Data paths
+paths:
+  infer_data_path: /home/carla/yongzhao/thesis/datasets/7towns/remix/Town06_Opt  # Path for inference data
+  train_data_path: /home/carla/yongzhao/thesis/datasets/20k_urban_train_vali/val  # Path for training data
+  train_output_path: /home/carla/yongzhao/thesis/datasets/20k_urban/output/  # Path for training output
+
+# Noise processing configurations
+noise_batch: 10  # Number of images to process in each batch
+noise_processing_sequence:
+  - config1  # Step 1: Apply noise defined in config1.json
+  - config2  # Step 2: Apply noise defined in config2.json
+
+# Logging and debugging configurations
+logging:
+  logging_level: INFO  # Logging level (e.g., DEBUG, INFO, WARNING, ERROR)

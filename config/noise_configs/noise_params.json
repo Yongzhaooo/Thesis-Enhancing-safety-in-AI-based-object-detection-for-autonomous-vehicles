@@ -1,0 +1,154 @@
+{
+    "gaussian": [
+        {
+            "mean": 0,
+            "sigma": 1
+        },
+        {
+            "mean": 0,
+            "sigma": 2
+        },
+        {
+            "mean": 0,
+            "sigma": 3
+        },
+        {
+            "mean": 0,
+            "sigma": 4
+        },
+        {
+            "mean": 0,
+            "sigma": 5
+        },
+        {
+            "mean": 0,
+            "sigma": 6
+        },
+        {
+            "mean": 0,
+            "sigma": 7
+        },
+        {
+            "mean": 0,
+            "sigma": 8
+        },
+        {
+            "mean": 0,
+            "sigma": 9
+        },
+        {
+            "mean": 0,
+            "sigma": 10
+        },
+        {
+            "mean": 0,
+            "sigma": 15
+        },
+        {
+            "mean": 0,
+            "sigma": 20
+        },
+        {
+            "mean": 0,
+            "sigma": 25
+        },
+        {
+            "mean": 0,
+            "sigma": 30
+        },
+        {
+            "mean": 0,
+            "sigma": 35
+        },
+        {
+            "mean": 0,
+            "sigma": 40
+        }
+    ],
+    "mosaic": [
+        {
+            "num_mosaics": 3,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 6,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 9,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 12,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 15,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 18,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 21,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 30,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 40,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 50,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 60,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 70,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 80,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        },
+        {
+            "num_mosaics": 90,
+            "min_mosaic_size": 5,
+            "max_mosaic_size": 200,
+            "color_mode": "average"
+        }
+    ]
+}
